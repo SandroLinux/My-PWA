@@ -1,0 +1,21 @@
+{
+  "name": "Sandro Linux The App",
+  "short_name": "Sandro Linux",
+  "start_url": "https://pwa.sandrolinux.com/",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "icons": [
+    {
+    "src": "https://www.sandrolinux.com/maskable_icon.png",
+    "sizes": "180x180",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "https://www.sandrolinux.com/pwaicon512.jpg",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+  ]
+}
