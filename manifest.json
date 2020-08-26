@@ -7,13 +7,13 @@
   "display": "standalone",
   "icons": [
     {
-    "src": "https://www.sandrolinux.com/maskable_icon.png",
+    "src": "https://pwa.sandrolinux.com/maskable_icon.png",
     "sizes": "180x180",
     "type": "image/png",
     "purpose": "any maskable"
   },
   {
-    "src": "https://www.sandrolinux.com/pwaicon512.jpg",
+    "src": "https://pwa.sandrolinux.com/pwaicon512.jpg",
     "sizes": "512x512",
     "type": "image/png"
   }
