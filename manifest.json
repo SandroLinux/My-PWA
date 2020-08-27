@@ -21,18 +21,18 @@
   ]
   ,"shortcuts": [
     {
-      "name": "Open Play Later",
-      "short_name": "Play Later",
-      "description": "View the list of podcasts you saved for later",
-      "url": "/play-later?utm_source=homescreen",
-      "icons": [{ "src": "/icons/play-later.png", "sizes": "192x192" }]
+      "name": "Tech News",
+      "short_name": "News",
+      "description": "Read The Latest Tech News",
+      "url": "/newsaboutme.html",
+      "icons": [{ "src": "/icons/news/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable" }]
     },
     {
-      "name": "View Subscriptions",
-      "short_name": "Subscriptions",
-      "description": "View the list of podcasts you listen to",
-      "url": "/subscriptions?utm_source=homescreen",
-      "icons": [{ "src": "/icons/subscriptions.png", "sizes": "192x192" }]
+      "name": "About Me",
+      "short_name": "About Me",
+      "description": "About Me and more",
+      "url": "/mainpage.html",
+      "icons": [{ "src": "/icons/aboutme/maskable_icon.png", "sizes": "180x180", "purpose": "any maskable"}]
     }
   ]
 }
