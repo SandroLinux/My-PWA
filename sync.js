@@ -19,8 +19,3 @@ navigator.serviceWorker.ready.then(function(registration) {
     // failure
   })
 });
-navigator.serviceWorker.ready.then(function(registration) {
-  registration.periodicSync.permissionState().then(function(state) {
-    if (state == 'prompt') showSyncRegisterUI();
-  });
-});
