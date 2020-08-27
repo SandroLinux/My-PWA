@@ -6,3 +6,8 @@ self.addEventListener('periodicsync', function(event) {
     event.registration.unregister();
   }
 });
+navigator.serviceWorker.ready.then(function(registration) {
+  registration.periodicSync.permissionState().then(function(state) {
+    if (state == 'prompt') showSyncRegisterUI();
+  });
+});
