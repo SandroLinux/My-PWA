@@ -5,6 +5,7 @@
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "display": "standalone",
+    
   "icons": [
     {
     "src": "https://pwa.sandrolinux.com/maskable_icon.png",
@@ -18,4 +19,21 @@
     "type": "image/png"
   }
   ]
+  ,"shortcuts": [
+    {
+      "name": "Open Play Later",
+      "short_name": "Play Later",
+      "description": "View the list of podcasts you saved for later",
+      "url": "/play-later?utm_source=homescreen",
+      "icons": [{ "src": "/icons/play-later.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Subscriptions",
+      "short_name": "Subscriptions",
+      "description": "View the list of podcasts you listen to",
+      "url": "/subscriptions?utm_source=homescreen",
+      "icons": [{ "src": "/icons/subscriptions.png", "sizes": "192x192" }]
+    }
+  ]
 }
+
