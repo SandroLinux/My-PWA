@@ -1,6 +1,6 @@
 {
   "name": "Sandro Linux The App",
-  "description": "A app which will let you stay up to date with Sandro Linux!"
+  "description": "A app which will let you stay up to date with Sandro Linux!",
   "short_name": "Sandro Linux",
   "start_url": "https://pwa.sandrolinux.com/",
   "background_color": "#ffffff",
