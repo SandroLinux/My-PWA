@@ -5,6 +5,10 @@ body{
   font-weight:normal;
   line-height:1.7em;
   color:#ffffff;
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .responsive-iframe {
