@@ -1,0 +1,22 @@
+{
+  "name": "Beats Time App",
+  "short_name": "Beats Time App",
+  "start_url": "https://swatch.sandrolinux.com/",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "display": "standalone",
+    
+  "icons": [
+    {
+    "src": "https://swatch.sandrolinux.com/beatstimeapp.png",
+    "sizes": "180x180",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "https://swatch.sandrolinux.com/beatstimeapp512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+  ]
+}

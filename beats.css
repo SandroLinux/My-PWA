@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: 'Krona One';
+}
+@font-face{
+    font-family: 'Krona One';
+    src: url('KronaOne-Regular.ttf')
+}
+.beats {
+    display: flex;
+    padding: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 70px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }

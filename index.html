@@ -1,62 +1,39 @@
-<!doctype html>
-<HTML lang="en-gb">
-  <head>
-  <link rel="stylesheet" type="text/css" href="sandrolinux.css">
-  <link rel="icon" href="https://www.sandrolinux.com/favicon.ico" type="image/x-icon">
-  <meta name="description" content="A page about me and my youtube channel Sandro Linux">
-  <meta name="keywords" content="Sandro Linux, Sandro's week roundup, Oscar Sanderson, Tech, Privacy">
-  <meta name="author" content="Oscar Sanderson">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="yandex-verification" content="7b071f980003b2bc" />
-  <meta name="msvalidate.01" content="3649A606B35320B079D9EFB34001AAC3" />
-  <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" href="https://www.sandrolinux.com/PWA%20Icon%20180.jpg">
-  <link rel="manifest" href="manifest.json">
-  <Title>The Home Page of Sandro's Official Site</Title>
-  </head>
-<body>
-  <header class="TopBar">
-<div class="container">
-<H1>The Sandro Linux App</H1>
-<nav id="navbar">
-  <div class="container">
-    <Ul>
-    <LI><a href="index.html">Home</a></LI>
-    <LI><a href="search.html">Search</a></LI>
-    </ul>
-      </div>
-    </nav>
-    </div>
-  </header>
-  <div class="box-1">
-  <script src="sync.js"></script>
-  <script src="pwa.js"></script>
-  <H2><u>My latest Sandro's Week Roundup</u></H2>
-  <div class="iframe-container">
-  <iframe class="responsive-iframe" src="https://odysee.com/$/embed/annoying-new-bing-adverts-and-new-windows-update/cabb281bcb94b1503b62bf5eaad4f0ba05f9cdf7?r=9UffYDWWWtyPguh5X14ztrxmJw4wAtx6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <H2><U>Which part of my website do you want to navigate to?</U></H2>
-  <UL>
-    <LI><a href="mainpage.html">About me</a></LI>
-    <LI><a href="newsaboutme.html">Tech News and News About Me</a></LI>
-    <LI><a href="aboutthiswebsite.html">About this website</a></LI>
-    <LI><a href="myplaylist.html">My playlists</a></LI>
-    <LI><a href="https://pwa.sandrolinux.com/mainpage#theaviuse">The Anti-Virus and VPN I Use</a></LI>
-    <LI><a href="https://pwa.sandrolinux.com/news/allstories.html">All Stories</a></LI>
-    </UL>
-    </div>
-  </div>
-</div>
-  </header>
-  <nav id="navbar">
-  <div class="container">
-  <div class="Endpoint">
-<a href="index.html">Homepage</a> &emsp; <a href="contactme.html">Contact Me</a></P>
-<footer id="main-footer">
-  <P>Copyright &copy; 2021 Oscar Sanderson</P>
-  </footer>
-  </div>
-</nav>
-</div>
-</body>
-</HTML>
+<html>
+    <head>
+      <title>Swatch beats time app</title>
+      <link rel="stylesheet" type="text/css" href="beats.css">
+      <link rel="manifest" href="scripts/manifest.json">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <script src="scripts/jquery-2.0.3.min.js"></script>
+	    <script src="scripts/bootstrap/js/bootstrap.min.js"></script>
+	    <script src="scripts/script.js"></script>
+      <script src="scripts/pwa.js"></script>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active">Swatch Time App</a>
+          <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="OFL.txt">Font Copyright</a>
+            <a onclick="darkmode()">Dark mode</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <span id="time"></span>
+        <p id="message"></p>
+        <div class="beats">@<span id="swatchTime"></span> .beats</div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script>
+    </body>
+</html>
